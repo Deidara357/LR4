@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="keywords" content="HTML">
     <meta name="description" content="Лабораторна робота 4">
-    <title>Колісецький І.І., ІК-11</title>
+    <title>Колісецький І.І., ІК-11, Лабораторна робота 4</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -33,9 +33,20 @@
         ще римські писання відзначали високу якість вина, виробленого в цьому районі.</p>
     <p>В останні роки Манарола і сусідні міста стали популярним туристичним напрямком, особливо в літні місяці.<br>
         Туристичних визначних пам'яток тут кілька: знаменита "Стежка Любові" (Via dell'Amore) в Ріомаджоре, 
-        інші гірські стежки і виноградники над містом.</p>
+        інші гірські стежки і виноградники над містом.
+    </p>
 
+    <!--
     <p><a href="https://www.cinqueterre.eu.com/en/manarola"><img src="https://italy4.me/wp-content/uploads/2018/01/manarola-italia.jpg" alt="Манарола, Італія"></a></p>
+    -->
+
+    <div id="image-container">
+        <p><a href="https://www.cinqueterre.eu.com/en/manarola"><img id="main-image" src="https://italy4.me/wp-content/uploads/2018/01/manarola-italia.jpg" alt="Манарола, Італія"></a></p>
+        <button class="action-button" onclick="addImage()">Додати</button>
+        <button class="action-button" onclick="zoomIn()">Збільшити</button>
+        <button class="action-button" onclick="zoomOut()">Зменшити</button>
+        <button class="action-button" onclick="deleteImage()">Видалити</button>
+      </div>
 
     <script src="script.js"></script>
     
